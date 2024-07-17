@@ -147,13 +147,16 @@ watch(
       .text {
         margin: 0.75rem 1rem;
         line-height: 2rem;
-        margin-right: auto;
+        // margin-right: auto;
         transition: opacity 0.2s;
 
-        p {
-          &:nth-of-type(1) {
-            font-family: "Pacifico-Regular";
-          }
+        // p {
+        //   &:nth-of-type(1) {
+        //     font-family: "Pacifico-Regular";
+        //   }
+        // }
+        :last-child {
+          float: right;
         }
       }
 
