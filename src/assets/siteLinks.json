@@ -15,6 +15,11 @@
     "link": "https://bingai.blackstar.us.kg/"
   },
   {
+    "icon": "Compass",
+    "name": "Fuclaude",
+    "link": "https://fuclaude.blackstar.us.kg/"
+  },
+  {
     "icon": "LaptopCode",
     "name": "站点监测",
     "link": "https://status.blackstar.us.kg/"
