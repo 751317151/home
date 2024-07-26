@@ -56,9 +56,9 @@ const startYear = ref(
     : null,
 );
 const siteIcp = ref(import.meta.env.VITE_SITE_ICP);
-const siteAuthor = "https://blackstar.us.kg";
+const siteAuthor = ref(import.meta.env.VITE_SITE_AUTHOR);
 const siteUrl = computed(() => {
-  const url = import.meta.env.VITE_SITE_URL;
+  const url = "https://blackstar.us.kg";
   if (!url) return "https://www.imsyy.top";
   // 判断协议前缀
   if (!url.startsWith("http://") && !url.startsWith("https://")) {
