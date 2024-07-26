@@ -56,7 +56,7 @@ const startYear = ref(
     : null,
 );
 const siteIcp = ref(import.meta.env.VITE_SITE_ICP);
-const siteAuthor = ref(import.meta.env.VITE_SITE_AUTHOR);
+const siteAuthor = "https://blackstar.us.kg";
 const siteUrl = computed(() => {
   const url = import.meta.env.VITE_SITE_URL;
   if (!url) return "https://www.imsyy.top";
