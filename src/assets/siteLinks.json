@@ -5,6 +5,11 @@
     "link": "https://blog.blackstar.us.kg/"
   },
   {
+    "icon": "Blog",
+    "name": "Hexo",
+    "link": "https://hexo.blackstar.us.kg/"
+  },
+  {
     "icon": "Cloud",
     "name": "图床",
     "link": "https://image.blackstar.us.kg/"
